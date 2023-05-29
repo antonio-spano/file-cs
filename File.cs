@@ -17,12 +17,6 @@ namespace AntoFileIO
 		private StreamWriter? sw;
 		private StreamReader? sr;
 		
-		private void Dispose()
-		{
-			sw?.Close();
-			sr?.Close();
-		}
-		
 		public FileIO() { }
 		
 		public FileIO(string path) { }
