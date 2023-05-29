@@ -32,7 +32,6 @@ namespace AntoFileIO
 			
 			using (sw = new StreamWriter(path, true))
 				sw.Write((newLine ? "\n" : "") + text);
-			
 		}
 		
 		public void Write(string text)
