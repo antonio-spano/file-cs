@@ -21,13 +21,11 @@ namespace AntoFileIO
 		
 		public FileIO(string path)
 		{
-			new FileStream(path, FileMode.Create);
 			this.path = path;
 		}
 		
 		public FileIO(string path, FileModeIO mode)
 		{
-			new FileStream(path, FileMode.Create);
 			this.path = path;
 			this.mode = mode;
 		}
